@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <title>Week 3 - Bootstrap Project</title>
+</head>
+<body class="container-fluid">
+
+<!-- navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Know Diversity</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+         aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="diversityDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Diversities
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="diversityDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Gender</a>
+                        <a class="dropdown-item active" href="sexuality.html">Sexuality</a>
+                        <a class="dropdown-item" href="#">Ethnicity</a>
+                        <a class="dropdown-item" href="#">Disabiltiy</a>
+                        <a class="dropdown-item" href="#">Neurodiversity</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="request.html">Request Info</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- table -->
+    <div class="container-fluid mt-5 p-3">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th class="col-lg-1 col-sm-2 col-3"><img class="img-fluid" src="images/lgbt.svg" alt="LGBTQIA Flag"></th>
+                    <th>Orientation</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col-lg-1 col-sm-2 col-3"><img class="img-fluid" src="images/asexual.svg" alt="Asexual Flag"></td>
+                    <td>Asexual</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Quisque sagittis purus sit amet. Sed lectus vestibulum mattis ullamcorper velit.</td>
+                </tr>
+                <tr>
+                    <td class="col-lg-1 col-sm-2 col-3"><img class="img-fluid" src="images/bisexual.svg" alt="Bisexual Flag"></td>
+                    <td>Bisexual</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Quisque sagittis purus sit amet. Sed lectus vestibulum mattis ullamcorper velit.</td>
+                </tr>
+                <tr>
+                    <td class="col-lg-1 col-sm-2 col-3"><img class="img-fluid" src="images/pansexual.svg" alt="Pansexual Flag"></td>
+                    <td>Pansexual</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Quisque sagittis purus sit amet. Sed lectus vestibulum mattis ullamcorper velit.</td>
+                </tr>
+                <tr>
+                    <td class="col-lg-1 col-sm-2 col-3"><img class="img-fluid" src="images/gaymen.svg" alt="Gay Men Flag"></td>
+                    <td>Gay [Men]</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Quisque sagittis purus sit amet. Sed lectus vestibulum mattis ullamcorper velit.</td>
+                </tr>
+                <tr>
+                    <td class="col-lg-1 col-sm-2 col-3"><img class="img-fluid" src="images/lesbian.svg" alt="Lesbian Flag"></td>
+                    <td>Lesbian</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet. Quisque sagittis purus sit amet. Sed lectus vestibulum mattis ullamcorper velit.</td>
+                </tr>
+              </tbody>
+        </table>
+    </div>
+
+<!-- footer -->
+    <div class="container-fluid text-center text-light bg-dark">
+        Tori Daye - Promineo Tech Week3 Bootstrap Assignement
+    </div>
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
